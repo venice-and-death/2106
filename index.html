@@ -37,14 +37,15 @@
         cursor="fuse: false; rayOrigin: mouse;"
         id="markerA"
       >
-        <a-image
+        <a-entity
           position="0 0 0"
-          scale="1 1.4 1"
-          src="https://venice-and-death.github.io/circles/01_limbo.jpg"
+          scale="0.00001 0.00001 0.00001"
+          obj-model="obj: url(https://venice-and-death.github.io/objectmodels/Ponte Delle Tette.obj); 
+            mtl: url(https://venice-and-death.github.io/objectmodels/Ponte Delle Tette.mtl)"
           class="clickable"
           gesture-handler
         >
-        </a-image>
+        </a-entity>
       </a-marker>
       <a-entity camera></a-entity>
     </a-scene>
